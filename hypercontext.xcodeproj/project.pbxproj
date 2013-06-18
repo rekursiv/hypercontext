@@ -1,0 +1,545 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5A9F396A16880FE000361417 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A9F396916880FE000361417 /* Cocoa.framework */; };
+		5A9F39BF1688209900361417 /* hctApp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5A9F39861688209900361417 /* hctApp.cpp */; };
+		5A9F39C01688209900361417 /* hctCachedFont.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5A9F39881688209900361417 /* hctCachedFont.cpp */; };
+		5A9F39C11688209900361417 /* hctDictTibEng.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5A9F398B1688209900361417 /* hctDictTibEng.cpp */; };
+		5A9F39C21688209900361417 /* hctEditManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5A9F398D1688209900361417 /* hctEditManager.cpp */; };
+		5A9F39C31688209900361417 /* hctFontManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5A9F398F1688209900361417 /* hctFontManager.cpp */; };
+		5A9F39C41688209900361417 /* hctGlyphStackerACIP.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5A9F39911688209900361417 /* hctGlyphStackerACIP.cpp */; };
+		5A9F39C51688209900361417 /* hctHyperlink.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5A9F39931688209900361417 /* hctHyperlink.cpp */; };
+		5A9F39C61688209900361417 /* hctLinkManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5A9F39951688209900361417 /* hctLinkManager.cpp */; };
+		5A9F39C71688209900361417 /* hctParseACIP.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5A9F39971688209900361417 /* hctParseACIP.cpp */; };
+		5A9F39C81688209900361417 /* hctParseHyp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5A9F39991688209900361417 /* hctParseHyp.cpp */; };
+		5A9F39C91688209900361417 /* hctRootFrame.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5A9F399C1688209900361417 /* hctRootFrame.cpp */; };
+		5A9F39CA1688209900361417 /* hctRootWindow.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5A9F399E1688209900361417 /* hctRootWindow.cpp */; };
+		5A9F39CB1688209900361417 /* hctSaveHyp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5A9F39A01688209900361417 /* hctSaveHyp.cpp */; };
+		5A9F39CC1688209900361417 /* hctSearchManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5A9F39A21688209900361417 /* hctSearchManager.cpp */; };
+		5A9F39CD1688209900361417 /* hctSelectionManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5A9F39A41688209900361417 /* hctSelectionManager.cpp */; };
+		5A9F39CE1688209900361417 /* hctTextAtom.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5A9F39A71688209900361417 /* hctTextAtom.cpp */; };
+		5A9F39CF1688209900361417 /* hctTextBlock_link.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5A9F39A91688209900361417 /* hctTextBlock_link.cpp */; };
+		5A9F39D01688209900361417 /* hctTextBlock_select_layered.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5A9F39AB1688209900361417 /* hctTextBlock_select_layered.cpp */; };
+		5A9F39D11688209900361417 /* hctTextBlock_select.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5A9F39AD1688209900361417 /* hctTextBlock_select.cpp */; };
+		5A9F39D21688209900361417 /* hctTextBlock.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5A9F39AF1688209900361417 /* hctTextBlock.cpp */; };
+		5A9F39D31688209900361417 /* hctTextManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5A9F39B11688209900361417 /* hctTextManager.cpp */; };
+		5A9F39D41688209900361417 /* hctTextSelector.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5A9F39B31688209900361417 /* hctTextSelector.cpp */; };
+		5A9F39D51688209900361417 /* hctTextWindow.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5A9F39B51688209900361417 /* hctTextWindow.cpp */; };
+		5A9F39D61688209900361417 /* hypercontext.xpm in Resources */ = {isa = PBXBuildFile; fileRef = 5A9F39B81688209900361417 /* hypercontext.xpm */; };
+		5A9F39D71688209900361417 /* hypercontext32x32.xpm in Resources */ = {isa = PBXBuildFile; fileRef = 5A9F39B91688209900361417 /* hypercontext32x32.xpm */; };
+		5A9F39D81688209900361417 /* open.xpm in Resources */ = {isa = PBXBuildFile; fileRef = 5A9F39BA1688209900361417 /* open.xpm */; };
+		5A9F39D91688209900361417 /* reopen.xpm in Resources */ = {isa = PBXBuildFile; fileRef = 5A9F39BB1688209900361417 /* reopen.xpm */; };
+		5A9F39DA1688209900361417 /* save.xpm in Resources */ = {isa = PBXBuildFile; fileRef = 5A9F39BC1688209900361417 /* save.xpm */; };
+		5A9F39DB1688209900361417 /* stdwx.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5A9F39BD1688209900361417 /* stdwx.cpp */; };
+		5A9F39DF168820A900361417 /* ACIP.kt in Resources */ = {isa = PBXBuildFile; fileRef = 5A9F39DC168820A900361417 /* ACIP.kt */; };
+		5A9F39E0168820A900361417 /* doxyfile in Resources */ = {isa = PBXBuildFile; fileRef = 5A9F39DD168820A900361417 /* doxyfile */; };
+		5A9F39E1168820A900361417 /* edit.xpm in Resources */ = {isa = PBXBuildFile; fileRef = 5A9F39DE168820A900361417 /* edit.xpm */; };
+		5AE43D7316883C2E00C27EDE /* tutorial.hyp in Resources */ = {isa = PBXBuildFile; fileRef = 5AE43D7016883C2E00C27EDE /* tutorial.hyp */; };
+		5AE43D7516883DF000C27EDE /* tibengdict_RY.def in CopyFiles */ = {isa = PBXBuildFile; fileRef = 5AE43D6E16883C2E00C27EDE /* tibengdict_RY.def */; };
+		5AE43D7616883DF700C27EDE /* tibengdict_RY.wrd in CopyFiles */ = {isa = PBXBuildFile; fileRef = 5AE43D6F16883C2E00C27EDE /* tibengdict_RY.wrd */; };
+		5AE43D7916883E6200C27EDE /* HypercontextTibetan.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5AE43D7816883E6200C27EDE /* HypercontextTibetan.ttf */; };
+		5AE43D7A16883E7100C27EDE /* HypercontextTibetan.ttf in CopyFiles */ = {isa = PBXBuildFile; fileRef = 5AE43D7816883E6200C27EDE /* HypercontextTibetan.ttf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		5AE43D7416883DA900C27EDE /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = tibengdict_RY;
+			dstSubfolderSpec = 7;
+			files = (
+				5AE43D7616883DF700C27EDE /* tibengdict_RY.wrd in CopyFiles */,
+				5AE43D7516883DF000C27EDE /* tibengdict_RY.def in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5AE43D7716883E4B00C27EDE /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = Fonts;
+			dstSubfolderSpec = 7;
+			files = (
+				5AE43D7A16883E7100C27EDE /* HypercontextTibetan.ttf in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		5A9F396516880FE000361417 /* hypercontext.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = hypercontext.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A9F396916880FE000361417 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		5A9F396C16880FE000361417 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		5A9F396D16880FE000361417 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		5A9F396E16880FE000361417 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		5A9F397116880FE000361417 /* hypercontext-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "hypercontext-Info.plist"; sourceTree = "<group>"; };
+		5A9F397716880FE000361417 /* hypercontext-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "hypercontext-Prefix.pch"; sourceTree = "<group>"; };
+		5A9F39861688209900361417 /* hctApp.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = hctApp.cpp; sourceTree = "<group>"; };
+		5A9F39871688209900361417 /* hctApp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = hctApp.h; sourceTree = "<group>"; };
+		5A9F39881688209900361417 /* hctCachedFont.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = hctCachedFont.cpp; sourceTree = "<group>"; };
+		5A9F39891688209900361417 /* hctCachedFont.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = hctCachedFont.h; sourceTree = "<group>"; };
+		5A9F398A1688209900361417 /* hctColors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = hctColors.h; sourceTree = "<group>"; };
+		5A9F398B1688209900361417 /* hctDictTibEng.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = hctDictTibEng.cpp; sourceTree = "<group>"; };
+		5A9F398C1688209900361417 /* hctDictTibEng.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = hctDictTibEng.h; sourceTree = "<group>"; };
+		5A9F398D1688209900361417 /* hctEditManager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = hctEditManager.cpp; sourceTree = "<group>"; };
+		5A9F398E1688209900361417 /* hctEditManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = hctEditManager.h; sourceTree = "<group>"; };
+		5A9F398F1688209900361417 /* hctFontManager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = hctFontManager.cpp; sourceTree = "<group>"; };
+		5A9F39901688209900361417 /* hctFontManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = hctFontManager.h; sourceTree = "<group>"; };
+		5A9F39911688209900361417 /* hctGlyphStackerACIP.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = hctGlyphStackerACIP.cpp; sourceTree = "<group>"; };
+		5A9F39921688209900361417 /* hctGlyphStackerACIP.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = hctGlyphStackerACIP.h; sourceTree = "<group>"; };
+		5A9F39931688209900361417 /* hctHyperlink.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = hctHyperlink.cpp; sourceTree = "<group>"; };
+		5A9F39941688209900361417 /* hctHyperlink.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = hctHyperlink.h; sourceTree = "<group>"; };
+		5A9F39951688209900361417 /* hctLinkManager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = hctLinkManager.cpp; sourceTree = "<group>"; };
+		5A9F39961688209900361417 /* hctLinkManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = hctLinkManager.h; sourceTree = "<group>"; };
+		5A9F39971688209900361417 /* hctParseACIP.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = hctParseACIP.cpp; sourceTree = "<group>"; };
+		5A9F39981688209900361417 /* hctParseACIP.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = hctParseACIP.h; sourceTree = "<group>"; };
+		5A9F39991688209900361417 /* hctParseHyp.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = hctParseHyp.cpp; sourceTree = "<group>"; };
+		5A9F399A1688209900361417 /* hctParseHyp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = hctParseHyp.h; sourceTree = "<group>"; };
+		5A9F399B1688209900361417 /* hctParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = hctParser.h; sourceTree = "<group>"; };
+		5A9F399C1688209900361417 /* hctRootFrame.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = hctRootFrame.cpp; sourceTree = "<group>"; };
+		5A9F399D1688209900361417 /* hctRootFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = hctRootFrame.h; sourceTree = "<group>"; };
+		5A9F399E1688209900361417 /* hctRootWindow.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = hctRootWindow.cpp; sourceTree = "<group>"; };
+		5A9F399F1688209900361417 /* hctRootWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = hctRootWindow.h; sourceTree = "<group>"; };
+		5A9F39A01688209900361417 /* hctSaveHyp.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = hctSaveHyp.cpp; sourceTree = "<group>"; };
+		5A9F39A11688209900361417 /* hctSaveHyp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = hctSaveHyp.h; sourceTree = "<group>"; };
+		5A9F39A21688209900361417 /* hctSearchManager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = hctSearchManager.cpp; sourceTree = "<group>"; };
+		5A9F39A31688209900361417 /* hctSearchManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = hctSearchManager.h; sourceTree = "<group>"; };
+		5A9F39A41688209900361417 /* hctSelectionManager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = hctSelectionManager.cpp; sourceTree = "<group>"; };
+		5A9F39A51688209900361417 /* hctSelectionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = hctSelectionManager.h; sourceTree = "<group>"; };
+		5A9F39A61688209900361417 /* hctTempLink.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = hctTempLink.h; sourceTree = "<group>"; };
+		5A9F39A71688209900361417 /* hctTextAtom.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = hctTextAtom.cpp; sourceTree = "<group>"; };
+		5A9F39A81688209900361417 /* hctTextAtom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = hctTextAtom.h; sourceTree = "<group>"; };
+		5A9F39A91688209900361417 /* hctTextBlock_link.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = hctTextBlock_link.cpp; sourceTree = "<group>"; };
+		5A9F39AA1688209900361417 /* hctTextBlock_link.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = hctTextBlock_link.h; sourceTree = "<group>"; };
+		5A9F39AB1688209900361417 /* hctTextBlock_select_layered.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = hctTextBlock_select_layered.cpp; sourceTree = "<group>"; };
+		5A9F39AC1688209900361417 /* hctTextBlock_select_layered.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = hctTextBlock_select_layered.h; sourceTree = "<group>"; };
+		5A9F39AD1688209900361417 /* hctTextBlock_select.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = hctTextBlock_select.cpp; sourceTree = "<group>"; };
+		5A9F39AE1688209900361417 /* hctTextBlock_select.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = hctTextBlock_select.h; sourceTree = "<group>"; };
+		5A9F39AF1688209900361417 /* hctTextBlock.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = hctTextBlock.cpp; sourceTree = "<group>"; };
+		5A9F39B01688209900361417 /* hctTextBlock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = hctTextBlock.h; sourceTree = "<group>"; };
+		5A9F39B11688209900361417 /* hctTextManager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = hctTextManager.cpp; sourceTree = "<group>"; };
+		5A9F39B21688209900361417 /* hctTextManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = hctTextManager.h; sourceTree = "<group>"; };
+		5A9F39B31688209900361417 /* hctTextSelector.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = hctTextSelector.cpp; sourceTree = "<group>"; };
+		5A9F39B41688209900361417 /* hctTextSelector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = hctTextSelector.h; sourceTree = "<group>"; };
+		5A9F39B51688209900361417 /* hctTextWindow.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = hctTextWindow.cpp; sourceTree = "<group>"; };
+		5A9F39B61688209900361417 /* hctTextWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = hctTextWindow.h; sourceTree = "<group>"; };
+		5A9F39B71688209900361417 /* hctTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = hctTypes.h; sourceTree = "<group>"; };
+		5A9F39B81688209900361417 /* hypercontext.xpm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = hypercontext.xpm; sourceTree = "<group>"; };
+		5A9F39B91688209900361417 /* hypercontext32x32.xpm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = hypercontext32x32.xpm; sourceTree = "<group>"; };
+		5A9F39BA1688209900361417 /* open.xpm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = open.xpm; sourceTree = "<group>"; };
+		5A9F39BB1688209900361417 /* reopen.xpm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = reopen.xpm; sourceTree = "<group>"; };
+		5A9F39BC1688209900361417 /* save.xpm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = save.xpm; sourceTree = "<group>"; };
+		5A9F39BD1688209900361417 /* stdwx.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = stdwx.cpp; sourceTree = "<group>"; };
+		5A9F39BE1688209900361417 /* stdwx.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = stdwx.h; sourceTree = "<group>"; };
+		5A9F39DC168820A900361417 /* ACIP.kt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ACIP.kt; sourceTree = "<group>"; };
+		5A9F39DD168820A900361417 /* doxyfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = doxyfile; sourceTree = "<group>"; };
+		5A9F39DE168820A900361417 /* edit.xpm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = edit.xpm; sourceTree = "<group>"; };
+		5AE43D6E16883C2E00C27EDE /* tibengdict_RY.def */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = tibengdict_RY.def; sourceTree = "<group>"; };
+		5AE43D6F16883C2E00C27EDE /* tibengdict_RY.wrd */ = {isa = PBXFileReference; lastKnownFileType = file; path = tibengdict_RY.wrd; sourceTree = "<group>"; };
+		5AE43D7016883C2E00C27EDE /* tutorial.hyp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = tutorial.hyp; sourceTree = "<group>"; };
+		5AE43D7816883E6200C27EDE /* HypercontextTibetan.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = HypercontextTibetan.ttf; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5A9F396216880FE000361417 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A9F396A16880FE000361417 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5A9F395A16880FE000361417 = {
+			isa = PBXGroup;
+			children = (
+				5A9F396F16880FE000361417 /* hypercontext */,
+				5A9F396816880FE000361417 /* Frameworks */,
+				5A9F396616880FE000361417 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5A9F396616880FE000361417 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5A9F396516880FE000361417 /* hypercontext.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5A9F396816880FE000361417 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5A9F396916880FE000361417 /* Cocoa.framework */,
+				5A9F396B16880FE000361417 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5A9F396B16880FE000361417 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5A9F396C16880FE000361417 /* AppKit.framework */,
+				5A9F396D16880FE000361417 /* CoreData.framework */,
+				5A9F396E16880FE000361417 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		5A9F396F16880FE000361417 /* hypercontext */ = {
+			isa = PBXGroup;
+			children = (
+				5AE43D6816882ED700C27EDE /* Glyph */,
+				5AE43D6716882EAE00C27EDE /* App */,
+				5AE43D6516882E9500C27EDE /* RC */,
+				5AE43D6916882F0100C27EDE /* Typedef */,
+				5AE43D6A16882F2600C27EDE /* File */,
+				5AE43D6B16882F5900C27EDE /* Managers */,
+				5AE43D6C16882F8600C27EDE /* Text */,
+				5A9F39BD1688209900361417 /* stdwx.cpp */,
+				5A9F39BE1688209900361417 /* stdwx.h */,
+				5A9F397016880FE000361417 /* Supporting Files */,
+			);
+			path = hypercontext;
+			sourceTree = "<group>";
+		};
+		5A9F397016880FE000361417 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5A9F39DD168820A900361417 /* doxyfile */,
+				5A9F397116880FE000361417 /* hypercontext-Info.plist */,
+				5A9F397716880FE000361417 /* hypercontext-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5AE43D6516882E9500C27EDE /* RC */ = {
+			isa = PBXGroup;
+			children = (
+				5AE43D7816883E6200C27EDE /* HypercontextTibetan.ttf */,
+				5AE43D6D16883C2E00C27EDE /* tibengdict_RY */,
+				5AE43D7016883C2E00C27EDE /* tutorial.hyp */,
+				5A9F39DC168820A900361417 /* ACIP.kt */,
+				5A9F39DE168820A900361417 /* edit.xpm */,
+				5A9F39B81688209900361417 /* hypercontext.xpm */,
+				5A9F39B91688209900361417 /* hypercontext32x32.xpm */,
+				5A9F39BA1688209900361417 /* open.xpm */,
+				5A9F39BB1688209900361417 /* reopen.xpm */,
+				5A9F39BC1688209900361417 /* save.xpm */,
+			);
+			name = RC;
+			sourceTree = "<group>";
+		};
+		5AE43D6716882EAE00C27EDE /* App */ = {
+			isa = PBXGroup;
+			children = (
+				5A9F39861688209900361417 /* hctApp.cpp */,
+				5A9F39871688209900361417 /* hctApp.h */,
+				5A9F399C1688209900361417 /* hctRootFrame.cpp */,
+				5A9F399D1688209900361417 /* hctRootFrame.h */,
+				5A9F399E1688209900361417 /* hctRootWindow.cpp */,
+				5A9F399F1688209900361417 /* hctRootWindow.h */,
+			);
+			name = App;
+			sourceTree = "<group>";
+		};
+		5AE43D6816882ED700C27EDE /* Glyph */ = {
+			isa = PBXGroup;
+			children = (
+				5A9F39881688209900361417 /* hctCachedFont.cpp */,
+				5A9F39891688209900361417 /* hctCachedFont.h */,
+				5A9F39911688209900361417 /* hctGlyphStackerACIP.cpp */,
+				5A9F39921688209900361417 /* hctGlyphStackerACIP.h */,
+			);
+			name = Glyph;
+			sourceTree = "<group>";
+		};
+		5AE43D6916882F0100C27EDE /* Typedef */ = {
+			isa = PBXGroup;
+			children = (
+				5A9F398A1688209900361417 /* hctColors.h */,
+				5A9F39B71688209900361417 /* hctTypes.h */,
+			);
+			name = Typedef;
+			sourceTree = "<group>";
+		};
+		5AE43D6A16882F2600C27EDE /* File */ = {
+			isa = PBXGroup;
+			children = (
+				5A9F398B1688209900361417 /* hctDictTibEng.cpp */,
+				5A9F398C1688209900361417 /* hctDictTibEng.h */,
+				5A9F39971688209900361417 /* hctParseACIP.cpp */,
+				5A9F39981688209900361417 /* hctParseACIP.h */,
+				5A9F39991688209900361417 /* hctParseHyp.cpp */,
+				5A9F399A1688209900361417 /* hctParseHyp.h */,
+				5A9F399B1688209900361417 /* hctParser.h */,
+				5A9F39A01688209900361417 /* hctSaveHyp.cpp */,
+				5A9F39A11688209900361417 /* hctSaveHyp.h */,
+			);
+			name = File;
+			sourceTree = "<group>";
+		};
+		5AE43D6B16882F5900C27EDE /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				5A9F398D1688209900361417 /* hctEditManager.cpp */,
+				5A9F398E1688209900361417 /* hctEditManager.h */,
+				5A9F398F1688209900361417 /* hctFontManager.cpp */,
+				5A9F39901688209900361417 /* hctFontManager.h */,
+				5A9F39951688209900361417 /* hctLinkManager.cpp */,
+				5A9F39961688209900361417 /* hctLinkManager.h */,
+				5A9F39A21688209900361417 /* hctSearchManager.cpp */,
+				5A9F39A31688209900361417 /* hctSearchManager.h */,
+				5A9F39A41688209900361417 /* hctSelectionManager.cpp */,
+				5A9F39A51688209900361417 /* hctSelectionManager.h */,
+			);
+			name = Managers;
+			sourceTree = "<group>";
+		};
+		5AE43D6C16882F8600C27EDE /* Text */ = {
+			isa = PBXGroup;
+			children = (
+				5A9F39931688209900361417 /* hctHyperlink.cpp */,
+				5A9F39941688209900361417 /* hctHyperlink.h */,
+				5A9F39A61688209900361417 /* hctTempLink.h */,
+				5A9F39A71688209900361417 /* hctTextAtom.cpp */,
+				5A9F39A81688209900361417 /* hctTextAtom.h */,
+				5A9F39A91688209900361417 /* hctTextBlock_link.cpp */,
+				5A9F39AA1688209900361417 /* hctTextBlock_link.h */,
+				5A9F39AB1688209900361417 /* hctTextBlock_select_layered.cpp */,
+				5A9F39AC1688209900361417 /* hctTextBlock_select_layered.h */,
+				5A9F39AD1688209900361417 /* hctTextBlock_select.cpp */,
+				5A9F39AE1688209900361417 /* hctTextBlock_select.h */,
+				5A9F39AF1688209900361417 /* hctTextBlock.cpp */,
+				5A9F39B01688209900361417 /* hctTextBlock.h */,
+				5A9F39B11688209900361417 /* hctTextManager.cpp */,
+				5A9F39B21688209900361417 /* hctTextManager.h */,
+				5A9F39B31688209900361417 /* hctTextSelector.cpp */,
+				5A9F39B41688209900361417 /* hctTextSelector.h */,
+				5A9F39B51688209900361417 /* hctTextWindow.cpp */,
+				5A9F39B61688209900361417 /* hctTextWindow.h */,
+			);
+			name = Text;
+			sourceTree = "<group>";
+		};
+		5AE43D6D16883C2E00C27EDE /* tibengdict_RY */ = {
+			isa = PBXGroup;
+			children = (
+				5AE43D6E16883C2E00C27EDE /* tibengdict_RY.def */,
+				5AE43D6F16883C2E00C27EDE /* tibengdict_RY.wrd */,
+			);
+			path = tibengdict_RY;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5A9F396416880FE000361417 /* hypercontext */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A9F398316880FE100361417 /* Build configuration list for PBXNativeTarget "hypercontext" */;
+			buildPhases = (
+				5A9F396116880FE000361417 /* Sources */,
+				5A9F396216880FE000361417 /* Frameworks */,
+				5A9F396316880FE000361417 /* Resources */,
+				5AE43D7416883DA900C27EDE /* CopyFiles */,
+				5AE43D7716883E4B00C27EDE /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = hypercontext;
+			productName = hypercontext;
+			productReference = 5A9F396516880FE000361417 /* hypercontext.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5A9F395C16880FE000361417 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = Pradipika;
+			};
+			buildConfigurationList = 5A9F395F16880FE000361417 /* Build configuration list for PBXProject "hypercontext" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 5A9F395A16880FE000361417;
+			productRefGroup = 5A9F396616880FE000361417 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5A9F396416880FE000361417 /* hypercontext */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5A9F396316880FE000361417 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A9F39D61688209900361417 /* hypercontext.xpm in Resources */,
+				5A9F39D71688209900361417 /* hypercontext32x32.xpm in Resources */,
+				5A9F39D81688209900361417 /* open.xpm in Resources */,
+				5A9F39D91688209900361417 /* reopen.xpm in Resources */,
+				5A9F39DA1688209900361417 /* save.xpm in Resources */,
+				5A9F39DF168820A900361417 /* ACIP.kt in Resources */,
+				5A9F39E0168820A900361417 /* doxyfile in Resources */,
+				5A9F39E1168820A900361417 /* edit.xpm in Resources */,
+				5AE43D7316883C2E00C27EDE /* tutorial.hyp in Resources */,
+				5AE43D7916883E6200C27EDE /* HypercontextTibetan.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5A9F396116880FE000361417 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A9F39BF1688209900361417 /* hctApp.cpp in Sources */,
+				5A9F39C01688209900361417 /* hctCachedFont.cpp in Sources */,
+				5A9F39C11688209900361417 /* hctDictTibEng.cpp in Sources */,
+				5A9F39C21688209900361417 /* hctEditManager.cpp in Sources */,
+				5A9F39C31688209900361417 /* hctFontManager.cpp in Sources */,
+				5A9F39C41688209900361417 /* hctGlyphStackerACIP.cpp in Sources */,
+				5A9F39C51688209900361417 /* hctHyperlink.cpp in Sources */,
+				5A9F39C61688209900361417 /* hctLinkManager.cpp in Sources */,
+				5A9F39C71688209900361417 /* hctParseACIP.cpp in Sources */,
+				5A9F39C81688209900361417 /* hctParseHyp.cpp in Sources */,
+				5A9F39C91688209900361417 /* hctRootFrame.cpp in Sources */,
+				5A9F39CA1688209900361417 /* hctRootWindow.cpp in Sources */,
+				5A9F39CB1688209900361417 /* hctSaveHyp.cpp in Sources */,
+				5A9F39CC1688209900361417 /* hctSearchManager.cpp in Sources */,
+				5A9F39CD1688209900361417 /* hctSelectionManager.cpp in Sources */,
+				5A9F39CE1688209900361417 /* hctTextAtom.cpp in Sources */,
+				5A9F39CF1688209900361417 /* hctTextBlock_link.cpp in Sources */,
+				5A9F39D01688209900361417 /* hctTextBlock_select_layered.cpp in Sources */,
+				5A9F39D11688209900361417 /* hctTextBlock_select.cpp in Sources */,
+				5A9F39D21688209900361417 /* hctTextBlock.cpp in Sources */,
+				5A9F39D31688209900361417 /* hctTextManager.cpp in Sources */,
+				5A9F39D41688209900361417 /* hctTextSelector.cpp in Sources */,
+				5A9F39D51688209900361417 /* hctTextWindow.cpp in Sources */,
+				5A9F39DB1688209900361417 /* stdwx.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		5A9F398216880FE100361417 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = NO;
+				"OTHER_CFLAGS[arch=*]" = (
+					"-I/Users/virtual/wxWidgets-2.9.4/build-static-release/lib/wx/include/osx_cocoa-unicode-static-2.9",
+					"-I/Users/virtual/wxWidgets-2.9.4/include",
+					"-D_FILE_OFFSET_BITS=64",
+					"-D__WXMAC__",
+					"-D__WXOSX__",
+					"-D__WXOSX_COCOA__",
+					"-DWX_PRECOMP",
+				);
+				"OTHER_LDFLAGS[arch=*]" = (
+					"-L/Users/virtual/wxWidgets-2.9.4/build-static-release/lib",
+					"-framework",
+					IOKit,
+					"-framework",
+					Carbon,
+					"-framework",
+					Cocoa,
+					"-framework",
+					AudioToolbox,
+					"-framework",
+					System,
+					"-framework",
+					OpenGL,
+					"/Users/virtual/wxWidgets-2.9.4/build-static-release/lib/libwx_osx_cocoau_xrc-2.9.a",
+					"/Users/virtual/wxWidgets-2.9.4/build-static-release/lib/libwx_osx_cocoau_webview-2.9.a",
+					"/Users/virtual/wxWidgets-2.9.4/build-static-release/lib/libwx_osx_cocoau_qa-2.9.a",
+					"/Users/virtual/wxWidgets-2.9.4/build-static-release/lib/libwx_baseu_net-2.9.a",
+					"/Users/virtual/wxWidgets-2.9.4/build-static-release/lib/libwx_osx_cocoau_html-2.9.a",
+					"/Users/virtual/wxWidgets-2.9.4/build-static-release/lib/libwx_osx_cocoau_adv-2.9.a",
+					"/Users/virtual/wxWidgets-2.9.4/build-static-release/lib/libwx_osx_cocoau_core-2.9.a",
+					"/Users/virtual/wxWidgets-2.9.4/build-static-release/lib/libwx_baseu_xml-2.9.a",
+					"/Users/virtual/wxWidgets-2.9.4/build-static-release/lib/libwx_baseu-2.9.a",
+					"-framework",
+					WebKit,
+					"-lexpat",
+					"-lwxregexu-2.9",
+					"-lwxtiff-2.9",
+					"-lwxjpeg-2.9",
+					"-lwxpng-2.9",
+					"-lz",
+					"-lpthread",
+					"-liconv",
+				);
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		5A9F398516880FE100361417 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "hypercontext/hypercontext-Prefix.pch";
+				INFOPLIST_FILE = "hypercontext/hypercontext-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5A9F395F16880FE000361417 /* Build configuration list for PBXProject "hypercontext" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A9F398216880FE100361417 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5A9F398316880FE100361417 /* Build configuration list for PBXNativeTarget "hypercontext" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A9F398516880FE100361417 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5A9F395C16880FE000361417 /* Project object */;
+}

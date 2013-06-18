@@ -1,0 +1,134 @@
+<e><fs+2>                        <t>{<e>       Welcome to Hypercontext       <t>}<fs>
+
+<e>This software was designed to help with a process known as "hypertexting."  When a file is hypertexted, the Tibetan words in the file are connected with the English words that they correspond to.  These hypertexted files will then be used to create a Tibetan-English dictionary.  What follows are a few short tutorials that will have you hypertexting in no time.
+
+
+
+<t>*<e><fs+1>   Lesson #1:  Links and sublinks<fs>
+To illustrate how all this works, let's start with an example.  Here is some Tibetan text and the corresponding English translation, which has already been linked together:
+<t><fs+1><1 <2 DBU MA><3 'I> <4 RTZA BA>><5 'I> <6 'GREL PA> <7 <8 SHES RAB> <9 SGRON MA>> 
+<e>The "<7 <9 Lamp> of <8 Wisdom>>," a <6 Commentary> <5 to> "<1 The <4 Root Text> <3 on> the <2 Middle Way>>"<fs>
+
+Now, the first thing you'll notice is that most of the letters are a dark blue color.  This means that they are linked to something.  To see what they are linked to, just hover your mouse pointer over the word.  (Try this now.)  If you are hovering over a Tibetan word, its definition is shown in the window below.  
+
+You'll notice that some links are lit up a light blue color, and others are lit up green.  Also, you can see that the green ones seem to always be embedded inside the blue ones.  This is because green links are "sublinks," or "links-within-links."  These sublinks provides a finer "level of detail" for the dictionary that will eventually be generated from the hyperlinks.  For example, <t><fs-1>DBU MA'I RTZA BA<e><fs> is a title of a book, and this translates into English as "The Root Text on the Middle Way."  So this whole chunk of text needs to be in the dictionary together.  But each word within this chunk also means something, and these need to go in the dictionary too.  For example, <t><fs-1>DBU MA<e><fs> means Middle Way, and as you can see it has its own link (even though it is already part of a bigger link.)  Explore a bit with your mouse pointer to see how this works.
+
+Notice that <t><fs-1>'GREL PA<e><fs> and its link, "Commentary," don't have any sublinks within them.  This will be the case for a vast majority of the words you link together.  Sublinks are generally only required for titles, words made up of other words, and common phrases.
+
+
+
+<t>*<e><fs+1>   Lesson #2:  Finding words in a sea of syllables<fs>
+OK, let's work with some Tibetan now:
+<t><fs+1>,SKYABS 'GRO SEMS BSKYED,<e><fs>
+
+To get a definition of the Tibetan words, just click on them.  The words will be selected (lit up purple,) and the definition of the word will appear in the window below.
+
+Of course, it's not really that simple - where you click on the words affects what definition you get.  For example, <t><fs-1>'GRO<e><fs> is both the second syllable in the word <t><fs-1>SKYABS 'GRO<e><fs> and also a word all by itself.  And <t><fs-1>SKYABS<e><fs> can also be a word.  Tibetan is like that.  Every syllable is separated by a little dot (called a "tsek,") but there is nothing to separate the words themselves.  At the same time, each syllable in a multiple-syllable Tibetan word often has its own meaning when read by itself.  This can make finding the words in a Tibetan sentence a little tricky.  The "word finder" in Hypercontext tries to make this easier.  When you click on a syllable, Hypercontext "looks ahead" at the syllables that come after it and finds as many words as possible, putting a vertical bar where each word ends.  To see the definitions of the other words Hypercontext found, just click on the first syllable again.  Also, Tibetan words can have "particles" tacked on the end of words, and they don't need a "tsek" separator to distinguish them.  So, if you click directly on <t><fs-1>SA<e><fs> (which on rare occasions can be a particle) you see only that selected.
+
+All of this sounds horribly complicated, but it will start to make sense once you have used it for awhile.  So, take a few moments now and click away at the Tibetan above.  Click multiple times on the same thing, click in different places within the same syllable, click all over.  Try to understand the connection between where you click and what you get.
+
+
+
+<t>*<e><fs+1>   Lesson #3:  Linking words together<fs>
+Now let's make some links:
+<t><fs+1>,SKYABS 'GRO SEMS BSKYED,
+<e>Refuge and the Wish<fs>
+
+OK, this is easy.  All you need to know is that most Tibetan words are made of two syllables, and the biggest word Hypercontext finds is usually the right one.  So, start from the left and click on the first Tibetan stack you see (the <t><fs-1>SKYA<e><fs>.)  Now read the definition.  Looks like it should be linked to the word "Refuge," right?  So, click on the word "Refuge" (in the title above) and notice that it turns purple too.  Now, when you tell Hypercontext to make a link, it links together all selected text (that is, everything that's purple.)  So let's do that now.  Hit the "spacebar" to make the link.  You should see the purpleness go away and the letters take on a blue tint.  Congratulations, you just made a link!  Let's do another one.  Click on the next part of the Tibetan, click on the English word you think matches it, and hit 'spacebar' again.  Another link made!  Now go hover your mouse over the links you just made to see how they are connected.
+
+
+
+<t>*<e><fs+1>   Lesson #4:  Putting links inside other links<fs>
+Continued from above:
+<t><fs+1>,<10 SKYABS 'GRO> <11 SEMS BSKYED>,
+<e><10 Refuge> and the <11 Wish<fs>>
+
+OK, what if we decide that we are working with a title, and the whole thing should be linked together as well?  No problem.  Click on the word "Refuge," but this time don't let go of the mouse button - keep it down.  While still holding the mouse button down, drag the mouse directly to the right (don't go up or down too much) until you have made the entire English part of the title purple.  (You can let go of the mouse button now.)  Do the same thing with the Tibetan.  Now hit 'spacebar.'  What happened here is that you made a new link, and the original links that were there became links within the new one you made.
+
+Note that you can make smaller links "inside" of larger ones, or place larger links "on top of" smaller ones.  (You can make the superlink first, or the sublink first - order doesn't matter.)  There are only two rules to keep in mind when making sublinks:  First, a sublink cannot be entirely and directly on top of its superlink (that is, they can't be the same size.)  Second, one link must entirely contain another.  Hypercontext enforces these rules by not allowing you to make invalid links.  (You'll see a message at the bottom of the screen that reads "Cannot link selected text:  Links would overlap without full containment.")
+
+
+
+<t>*<e><fs+1>   Lesson #5:  Deleting links<fs>
+Let's try deleting the links we just made:
+<t><fs+1>,<12 <13 SKYABS 'GRO> <14 SEMS BSKYED>>,
+<e><12 <13 Refuge> and the <14 Wish<fs>>>
+
+Very simple:  Hover your mouse over a link, and hit the "D" key.  Since we are working with sublinks here, and the delete function only deletes one link at a time, you may still see a lot of blue.  These other links can be deleted with another application of the "D" key.  Three of these should be enough to remove all the links in the above example.  (Try it now, if you haven't already.)
+
+
+
+<t>*<e><fs+1>   Lesson #6:  Correcting mistakes<fs>
+Let's say<e> one part of a link is correct, but the other one is not, like so:
+<t><fs+1>,<15 SKYABS 'GRO> SEMS BSKYED,
+<e>Refuge <15 and> the Wish<fs>
+
+One way to correct this would be to hover over the link and hit "D" for "delete."  Then we could start over from scratch.  But an easier way to do it is to use the "unlink" feature, which is accessed with the "X" key.  Try it now:  Hover over the link and hit "X."  You'll notice that the links have turned purple - they are now selected.  So all we have to do is click "Refuge" (the original Tibetan link stays where it is) and the hit the link key (spacebar.)  In this simple example, we really only saved a single mouseclick - no big deal.  But when working with <e>longer sentences, this technique can<e> save a lot of time.<e>
+
+
+
+<t>*<e><fs+1>   Lesson #7:  Making use of that other mouse button<fs>
+When we clicked on words to select them in the lessons above, we were using the "main" mouse button.  (This is usually the LEFT button.)  However, the other (RIGHT) mouse button can be used to link and unlink text.  This is totally optional, and in fact if you're comfortable using the keyboard as described in the lessons above you can skip this lesson entirely.  If you want to learn a new, possibly easier way to do things, read on.
+
+<e>When you have some text selected and are ready to link it together, click the RIGHT mouse button.  Notice that you don't have to be directly over the selected text (the purple part) to make it work.  (You may remember that the "spacebar" does this too.)  Here's our now-familiar translation to try it<e> out on:
+<t><fs+1>,SKYABS 'GRO SEMS BSKYED,
+<e>Refuge and the Wish<fs>
+
+The RIGHT mouse button can also be used to unlink text.  But first, make sure nothing is selected by either LEFT-clicking on a "blank" part of the page, or hitting the "Esc" key.  (You can use this at any time to cancel a selection.)  Now, hover your mouse over a link so that it shows up blue (or green.)  Now RIGHT-click.  You should see the link turn purple, meaning that it is no longer a link and is now a selection.  (Note that the "X" key does the same thing.)  At this point, you could do one of three things:  You could RIGHT-click once more to link the text back together again.  Or, you could LEFT-click on another word, then RIGHT-click again to re-link it.  Finally, you could just LEFT-click on a "blank" part of the screen, and get rid of all traces<e> of the link.  Go ahead - try it now.
+
+
+
+<t>*<e><fs+1>   Lesson #8:  Adding notes<fs>
+Hypercontext allows you to make notes in your file, either for yourself or for someone who will be viewing it later.  This is especially handy when you're not quite sure how something is supposed to be linked.  If you make notes as you go, you can email the file to someone else, and they will be able to read the notes you made.  They can then make their own notes and email it back.  So, let's see how it works.  Below is a note:
+<!Hi.  I'm a note.>
+
+(It's the little yellow square.  Just think "post-it note.")  When you hover your mouse pointer over the yellow note marker, you will be able to read the note in the window below.  To edit the note, just double-click on the little yellow square above.  (Try this now.)  You should now see that the yellow window has turned pink, and that a blinking cursor awaits your input.  When you're done with your edit, click anywhere in this upper window.  (The text below will disappear, but you can always view it again by hovering over the note marker.)  To delete a note, simply double-click to edit the note and then delete all the text within it.  When you click on the upper window to "finish" the edit, the note marker will disappear.  (Try it now.)  To add a note, simply double-click on a blank line.  (The line has to be completely blank, with no other text on it.)  Try this now on some blank lines in this tutorial.
+
+
+
+<t>*<e><fs+1>   Lesson #9:  Working with files<fs>
+When you save a file, Hypercontext may add some "tags" to it, and will tack ".hyp" to the end of the file name.  Other than that, there is nothing special about these files - you could load them up in Notepad if you wanted.  In fact, loading your file into Notepad is very handy for seeing the tags and link numbers, and for doing fine editing that Hypercontext can't do.  It's so handy that there's a special button for doing it - the little blue notebook icon in the toolbar at the top of this window.  (Try this now if you want to.)  You can also access this via the "Edit" menu, under the name of "Open in External Editor."
+
+A related button is located just to the right - the one with the two green arrows going in a circle.  This is called "Reopen," and can also be accessed via the "file" menu.  To do fine editing work, you can "Open in External Editor," edit and save in Notepad, and then "Reopen" to bring the changes back into Hypercontext.  (You won't be able to try this on the tutorial file - it's write-protected.  But please feel free to take a moment and try it out on another text file.  You can always get back to this tutorial by going to the "Help" menu and selecting "Load Tutorial.")
+
+You may find "Reopen" useful while doing some of these tutorial lessons.  After you have done a lesson and have made changes to the file, "Reopen" will put everything back the way it was before.  When you hypertext your own files, you can use this feature as a "poor man's undo."  Just be careful - by reloading an older version of your file you will loose all your changes since you saved last.
+
+
+
+<t>*<e><fs+1>   Lesson #10: Edit modes<fs>
+Hypercontext has two different modes - "Text Edit Mode" and "Link Edit Mode."  The program works differently in each of these modes, so it's good to know which one you're in.  This information is displayed in the "status bar" at the very bottom of the Hypercontext window.  Also, when you are in "Link" mode, you will see an arrow for a cursor.  In "Text" mode, you will see an "I-beam" for a cursor.  To switch between modes, use the "F8" key.
+
+When you load in a file that you have saved with Hypercontext (one with the ".hyp" extension) it is assumed you will be editing links, and Hypercontext will automatically go into "Link Edit Mode."  When you load another type of file (".txt" for example) Hypercontext assumes you will want to edit text and "Text Edit Mode" is activated.
+
+"Text Edit Mode" works very much like a standard text editor - you can use the mouse and arrow keys to place your cursor, then type stuff in or delete.  (Cut, Copy and Paste are not available yet, but they are planned for a future version.)  Take a moment now to get yourself into this mode (using F8) and play with it a bit.
+
+"Link Edit Mode" is what you will use the most when you are hypertexting.  You have seen some of what you can do in the mode through this tutorial.  (Hit the "F1" key to bring up a list of more tricks that can be done.)
+
+
+
+<t>*<e><fs+1>   Lesson #11:  Preparing a file for hypertexting<fs>
+As explained above, Hypercontext will load text files.  So if you have a text file ready you'd like to hypertext, you can simply load the file and view it.  However, Hypercontext can't tell the difference between Tibetan and English words (it assumes English.)  As a result, your file might look something like this:
+
+<fs+1>DBU MA LA 'JUG PA
+Entering the Middle Way
+
+DBU MA LA 'JUG PA'I BSHAD PA
+Autocommentary to "Entering into the Middle Way"<fs>
+
+To tell Hypercontext about the languages, you have to add "tags" to your file.  Use the "$<t$>" tag before Tibetan text, and the "$<e$>" tag before English text (they must be lower case.)  Use an external editor such as "Notepad" to add these tags (see Lesson #9.)  So, our example would look like this:
+<fs+1>
+$<t$>DBU MA LA 'JUG PA
+$<e$>Entering the Middle Way
+
+$<t$>DBU MA LA 'JUG PA'I BSHAD PA
+$<e$>Autocommentary to "Entering into the Middle Way"<fs>
+
+If you have multiple lines, you don't have to put a tag on every line - Hypercontext will keep reading the text as one language until it finds a tag for another.  After reloading the above into Hypercontext, it will look like this:
+<fs+1>
+<t>DBU MA LA 'JUG PA
+<e>Entering the Middle Way
+
+<t>DBU MA LA 'JUG PA'I BSHAD PA
+<e>Autocommentary to "Entering into the Middle Way"<fs>
+
+
